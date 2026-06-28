@@ -58,11 +58,21 @@
             gap: 24px;
         }
 
-        .profile img {
+        .profile .photo {
             width: 180px;
             height: 180px;
             object-fit: cover;
             border-radius: 50%;
+        }
+
+        .wave {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+            position: relative;
+            top: -3px;
+            border-radius: 0;
         }
 
         .bio {
@@ -89,11 +99,11 @@
 <body>
     <div class="container">
         <div class="profile">
-            <img src="profile.jpg" alt="Profile picture">
+            <img src="profile.jpg" alt="Profile picture" class="photo">
             <div class="bio">
-                <p>Hi, I'm Carolyn Duan! I'm a software engineer at Figma, based in San Francisco. </p>
-                <p>I have previously been labeled as a "serial hobbyist". Currently, I'm trying to pour better latte art
-                    and make good soup. </p>
+                <p><img src="waveboi.gif" alt="Waving hand animation" class="wave">Hi, I'm Carolyn Duan! I'm a software engineer at Figma, based in San Francisco. </p>
+                <p>I've previously been labeled as a "serial hobbyist". Currently, I'm trying to pour better latte art
+                    and make good soup 🍲 </p>
                 <p>Feel free to reach out: duancaro@gmail.com</p>
             </div>
         </div>
